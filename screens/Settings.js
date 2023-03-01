@@ -10,6 +10,7 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 const Settings = ({ navigation, userData })=> {
     const { signOut } = React.useContext(AuthContext);
 
+    
     const [name, setName] = useState(userData.name);
     const [date, setDate] = useState(new Date());
     const [place, setPlace] = useState(userData.place);
