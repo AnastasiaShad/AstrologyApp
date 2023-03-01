@@ -1,0 +1,2 @@
+# AstrologyApp
+Проект для ПИ
